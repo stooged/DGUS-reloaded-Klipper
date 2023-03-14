@@ -2,7 +2,7 @@
 
 DWIN T5UID1 touchscreen firmware for 3D printers running Klipper.
 
-Requires using a modified version of Klipper to work properly, which can be found in [this repository](https://github.com/Desuuuu/klipper).
+Requires using a modified version of Klipper to work properly, which can be found in [this repository](https://github.com/stooged/klipper).
 
 ## Disclaimer
 **This software is provided without any warranty. You are solely responsible for your use of it.**
@@ -37,7 +37,7 @@ Testing has been done on the following machines:
 * Creality CR-10S Pro
 
 ## Prerequisites
-You have to use this [modified version of Klipper](https://github.com/Desuuuu/klipper). Make sure to enable the serial connection to the screen while configuring the MCU firmware.
+You have to use this [modified version of Klipper](https://github.com/stooged/klipper). Make sure to enable the serial connection to the screen while configuring the MCU firmware.
 
 The only modification required to your Klipper configuration file is to add this section:
 ```
@@ -45,14 +45,14 @@ The only modification required to your Klipper configuration file is to add this
 firmware: dgus_reloaded
 ```
 
-For a list of available options, see the [sample-t5uid1.cfg](https://github.com/Desuuuu/klipper/blob/master/config/sample-t5uid1.cfg) file.
+For a list of available options, see the [sample-t5uid1.cfg](https://github.com/stooged/klipper/blob/master/config/sample-t5uid1.cfg) file.
 
-Example Klipper configurations are available in [this repository](https://github.com/Desuuuu/DGUS-reloaded-Klipper-config).
+Example Klipper configurations are available in [this repository](https://github.com/stooged/DGUS-reloaded-Klipper-config).
 
 ## Wiki
-* [Flashing the firmware](https://github.com/Desuuuu/DGUS-reloaded-Klipper/wiki/Flashing-the-firmware)
-* [Print status](https://github.com/Desuuuu/DGUS-reloaded-Klipper/wiki/Print-status)
-* [Print progress display](https://github.com/Desuuuu/DGUS-reloaded-Klipper/wiki/Print-progress-display)
+* [Flashing the firmware](https://github.com/stooged/DGUS-reloaded-Klipper/wiki/Flashing-the-firmware)
+* [Print status](https://github.com/stooged/DGUS-reloaded-Klipper/wiki/Print-status)
+* [Print progress display](https://github.com/stooged/DGUS-reloaded-Klipper/wiki/Print-progress-display)
 
 ## Modification / Compilation
 You can make modifications to the firmware by opening the `DWprj.hmi` file in **DGUS Tools**.
